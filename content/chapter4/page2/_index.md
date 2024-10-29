@@ -81,4 +81,9 @@ Writing superblocks and filesystem accounting information: done
 
 You should now have a proper file system on the USB Drive, which we will use as our space for creating our secure boot image next.
 
+> [!WARNING]
+> **Windows users**
+>
+> We have created an ext4 filesystem on the USB Drive. Windows cannot mount or read ext4 filesystems, so you will be unable to use the USB Drive from a Windows system without reformatting the drive (and erasing all data on it).
+> 
 {{< pagenav prev="../page1" next="../page3/" >}}

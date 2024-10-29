@@ -140,6 +140,12 @@ Configuration settings saved
 
 We've now got a system that is configured to have A/B partitioning, and to apply updates to the backup partition when they are available.
 
+> [!TIP]
+> **Logs**
+>
+> Bootware messages are logged to `/boot/firmware/zboot.log` so if you're interested in seeing what Bootware is doing you can loog there.
+> 
+
 To complete the process, we will actually apply the update (which is really just a copy of the currently running system). This will trigger the re-partitioning and a reboot.
 
 {{< pagenav prev="../page3" next="../page5/" >}}

@@ -13,6 +13,12 @@ First, let's login to your Pi. Remember the hostname you gave it back while you 
 > On Linux, and XTerm or Terminal app will work
 > On Windows, you will need [Putty](https://www.putty.org) or a similar Terminal application
 
+> [!TIP]
+> **Windows users**
+>
+> The best solution for Windows is to make sure that you have WSL installed and active. This will give you access to a proper command line that you can use for `ssh`, etc. To install WSL, see the instructions provided [here](https://davidgs.com/zymbit-workshop/index.html)
+
+
 ```bash
 ssh <username>@<hostname.local>
 ```

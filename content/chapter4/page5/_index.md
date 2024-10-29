@@ -91,6 +91,23 @@ Notice that we now have two `cryptfs` devices. These are fully signed and encryp
 
 What if the update had failed? Here's the beauty of A/B partitioning with Bootware: if the system fails to boot (it fails to reach a `systemd init` target for 3 times in a row), Bootware will revert to the known-good partition, bringing your device back on-line.
 
+### Verifying the changes
+
+We've created A/B partitions, and have verified that they are both there, and that we are booted out of the active (A) partition. As part of the Bootware initialization we just performed, the same image was also installed on the B partition. We can verify this by running
+
+```bash
+zbcli rollback-swap
+```
+
+This will trigger a reboot of your Pi, but when you log back in, run
+
+```bash
+lsblk
+```
+
+Again and see what filesystems you have available now.
+
+
 ### Congratulations
 
 You now have a Raspberry Pi that has a secure mechanism for signing data and for creating and installing secure boot images!
