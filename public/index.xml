@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zymbit Workshop</title>
+    <link>http://localhost:1313/zymbit-tutorial/index.html</link>
+    <description>Welcome to the Workshop Overview We will be building a Raspberry Pi (model 4B) from scratch, then using a Zymkey to secure it by encrypting the rootfs root filesystem. We will use Bootware to create a new partition map.&#xA;We will also enable A/B partitioning to make updates resilient, reliable, and recoverable in the event of a bad update.&#xA;Loading this tutorial You are encouraged to load this tutorial on your laptop in order to make things easier (like the ability to copy/paste commands) by going to https://davidgs.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>david.simmons@zymbit.com (David G. Simmons)</managingEditor>
+    <webMaster>david.simmons@zymbit.com (David G. Simmons)</webMaster>
+    <lastBuildDate>Fri, 25 Oct 2024 13:28:23 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/zymbit-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter1/index.html</link>
+      <pubDate>Thu, 24 Oct 2024 12:23:03 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter1/index.html</guid>
+      <description>Background The venerable Raspberry Pi has been around for over a decade (officially created in 2009) and it has become a standard in many robotics, home automation, and other types of uses. Especially for “makers” and other tinkerers. But it has also made serious inroads into the professional and enterprise world – just more quietly.&#xA;It’s a capable, reliable, and powerful Single Board Computer (SBC) with a robust user community. For all it’s strengths, it does have a few notable weaknesses.</description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter2/index.html</link>
+      <pubDate>Thu, 24 Oct 2024 14:16:42 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter2/index.html</guid>
+      <description>Overview First, let’s go over all the hardware and parts in your kit.&#xA;Note You will be taking all of this hardware home with you! It’s yours to keep.&#xA;To start off, we’re going to build a Raspberry Pi from scratch.&#xA;Here are all the parts included in your kit. I will include Amazon links to the ones we are using in this workshop in case you want to resupply later.</description>
+    </item>
+    <item>
+      <title>Pi Software</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter3/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 08:53:52 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter3/index.html</guid>
+      <description>In this section we will do the following:&#xA;Install the Pi Imager software Image the SD Card for the Raspberry Pi Boot the Raspberry Pi Enable I2C on the Raspberry Pi 👈 Back Next 👉</description>
+    </item>
+    <item>
+      <title>Configuring Zymkey</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter4/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 13:18:46 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter4/index.html</guid>
+      <description>At this point your Raspberry Pi should be booted and running. The Zymkey should be installed, and the blue light on the Zymkey should be blinking rapidly. The rapid blinking indicates that the Zymkey is powered on, but the Raspberry Pi is not able to communicate with it yet. So let’s fix that!&#xA;👈 Back Next 👉</description>
+    </item>
+    <item>
+      <title>Bonus Exercises</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter5/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 13:28:23 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter5/index.html</guid>
+      <description>Now that you have a secure Raspberry Pi it’s time to see what you can do with it!&#xA;I’ve got 2 exercises you can try:&#xA;Update your Pi securely from an external (web) source. Use your Zymkey to create and sign some data 👈 Back Next 👉</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,9 @@
+<table class="nav-controls"><tr>
+{{ with .Get "prev" }}
+  <td class="nav-controls prev"><a href="{{ . }}" class="btn btn-primary prev-button">👈 Back</a></td>
+{{ end }}
+{{ with .Get "next" }}
+  <td class="nav-controls next"><a href="{{ . }}" class="btn btn-primary next-button">Next 👉</a></td>
+{{ end }}
+</tr>
+</table>

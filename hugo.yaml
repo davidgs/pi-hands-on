@@ -1,0 +1,33 @@
+
+baseURL: 'https://davidgs.com/zymbit-tutorial/'
+languageCode: 'en-us'
+title: 'Zymbit Workshop'
+params:
+  disableRootBreadcrumb: true
+  linkTitle: Zymbit
+  showVisitedLinks: true
+  author:
+    email: david.simmons@zymbit.com
+    name: David G. Simmons
+  copyright: 2024
+  themeVariant:
+    - identifier: zymbit-dark
+      name: Dark Mode
+    - identifier: zymbit-light
+      name: Light Mode
+  features:
+    analytics:
+      enabled: true
+      services:
+        google:
+          id: G-EG3Z8Q98FZ
+        statcounter:
+          project: 10096606
+          security: 2eda6207
+          invisible: 1
+          nonce: sBQMjIu6F5wRbojje4UQ6WQL7zW1994WyaBlJYAHYg
+        posthog:
+        id: phc_xvr9iYiOKNEZdxKH8JC7PFHwCVJflLczaKNIzeoEFVy
+module:
+  imports:
+  - path: github.com/McShelby/hugo-theme-relearn

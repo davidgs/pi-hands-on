@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secure Booting :: Zymbit Workshop</title>
+    <link>http://localhost:1313/zymbit-tutorial/chapter4/page4/index.html</link>
+    <description>Configuring Bootware This is where the real fun begins! If you’ve ever used LUKS to encrypt a Pi filesystem before, you know that, while it’s a great step in securing your Pi, you still have to store that encryption key somewhere that is accessible at boot time.&#xA;With Bootware and a Zymbit HSM, the LUKS encryption key is locked by the Zymbit HSM, making it much more secure. Bootware expects the boot image to be in a specific, encrypted format called a z-image.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>david.simmons@zymbit.com (David G. Simmons)</managingEditor>
+    <webMaster>david.simmons@zymbit.com (David G. Simmons)</webMaster>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/zymbit-tutorial/chapter4/page4/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

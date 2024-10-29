@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pi Software :: Zymbit Workshop</title>
+    <link>http://localhost:1313/zymbit-tutorial/chapter3/index.html</link>
+    <description>In this section we will do the following:&#xA;Install the Pi Imager software Image the SD Card for the Raspberry Pi Boot the Raspberry Pi Enable I2C on the Raspberry Pi 👈 Back Next 👉</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>david.simmons@zymbit.com (David G. Simmons)</managingEditor>
+    <webMaster>david.simmons@zymbit.com (David G. Simmons)</webMaster>
+    <lastBuildDate>Fri, 25 Oct 2024 08:53:52 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/zymbit-tutorial/chapter3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pi Imager</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter3/page1/index.html</link>
+      <pubDate>Thu, 24 Oct 2024 14:42:59 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter3/page1/index.html</guid>
+      <description>Download Pi Imager The Pi Imager software from the Raspberry Pi Foundation is the easiest way to create a proper OS image for your Raspberry Pi. You can download the Pi Imager software and then follow the instructions to install for your platform.&#xA;👈 Back Next 👉</description>
+    </item>
+    <item>
+      <title>Creating an image</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter3/page2/index.html</link>
+      <pubDate>Thu, 24 Oct 2024 14:48:01 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter3/page2/index.html</guid>
+      <description>Starting Pi Imager When you first start the Pi Imager, you’ll see that you have to make some choices:&#xA;First, you’ll want to choose which Pi model you have. We’re using Pi 4s&#xA;Next, you’ll choose the Operating System. We are going to use the most recent version (Bookworm, 64-bit), but we won’t be needing the full Desktop environment, so choose the ‘Lite’ version.&#xA;Next, you’ll identify the Micro SD Card you’d like to write to.</description>
+    </item>
+    <item>
+      <title>Pi Configuration</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter3/page3/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 08:53:52 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter3/page3/index.html</guid>
+      <description>Now it’s time to plug the Pi in to the power supply, wait for it to boot, and get started setting up our security!&#xA;First, let’s login to your Pi. Remember the hostname you gave it back while you were Configuring your SD Card? You’ll need that, and the username/password that you set. You will also need a terminal application.&#xA;Important On macOS, you can go to Applications –&gt; Utilities –&gt; Terminal.</description>
+    </item>
+  </channel>
+</rss>

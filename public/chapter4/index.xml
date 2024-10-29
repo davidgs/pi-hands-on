@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuring Zymkey :: Zymbit Workshop</title>
+    <link>http://localhost:1313/zymbit-tutorial/chapter4/index.html</link>
+    <description>At this point your Raspberry Pi should be booted and running. The Zymkey should be installed, and the blue light on the Zymkey should be blinking rapidly. The rapid blinking indicates that the Zymkey is powered on, but the Raspberry Pi is not able to communicate with it yet. So let’s fix that!&#xA;👈 Back Next 👉</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>david.simmons@zymbit.com (David G. Simmons)</managingEditor>
+    <webMaster>david.simmons@zymbit.com (David G. Simmons)</webMaster>
+    <lastBuildDate>Fri, 25 Oct 2024 13:18:46 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/zymbit-tutorial/chapter4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install zkifc</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter4/page1/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 12:41:35 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter4/page1/index.html</guid>
+      <description>Now that our Pi is up and running, and the Zymkey is installed, it’s time to install the Zymbit software that we will need in order to commnicate with the device.&#xA;Installing zkifc All of these steps are covered in greater detail in the documentation, so if anything here is confusing, you can always double-check there.&#xA;Next, we need to install the required Zymkey Software.&#xA;curl -G https://s3.amazonaws.com/zk-sw-repo/install_zk_sw.sh | sudo bash Will install any updates, and then download and install the required Zymbit software.</description>
+    </item>
+    <item>
+      <title>Preparing for Bootware™</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter4/page2/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 12:49:09 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter4/page2/index.html</guid>
+      <description>Finally, making it secure Now that we have a proper security device installed, tested, and ready let’s secure this thing. At the very same time, let’s make sure that we can securely update the device when the time comes, and that it is built to be recoverable in case an update fails.&#xA;Ordinarily this would be a ton of work, but we’re going to simplify everything and do it pretty much all at once.</description>
+    </item>
+    <item>
+      <title>Installing Bootware™</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter4/page3/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 12:53:24 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter4/page3/index.html</guid>
+      <description>A place to put the backup image Since we will be using Bootware™ to secure our device, we will need a place for the system to copy the entire SD Card as it encrypts it. For this, we’re going to use a USB Drive.&#xA;We need to make sure that we can use our USB Drive properly. I often re-use them for other tasks, so here’s how I like to start out.</description>
+    </item>
+    <item>
+      <title>Secure Booting</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter4/page4/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 13:12:15 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter4/page4/index.html</guid>
+      <description>Configuring Bootware This is where the real fun begins! If you’ve ever used LUKS to encrypt a Pi filesystem before, you know that, while it’s a great step in securing your Pi, you still have to store that encryption key somewhere that is accessible at boot time.&#xA;With Bootware and a Zymbit HSM, the LUKS encryption key is locked by the Zymbit HSM, making it much more secure. Bootware expects the boot image to be in a specific, encrypted format called a z-image.</description>
+    </item>
+    <item>
+      <title>Enabling Secure Boot</title>
+      <link>http://localhost:1313/zymbit-tutorial/chapter4/page5/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 13:18:46 -0400</pubDate><author>david.simmons@zymbit.com (David G. Simmons)</author>
+      <guid>http://localhost:1313/zymbit-tutorial/chapter4/page5/index.html</guid>
+      <description>Setting up secure booting Before we can set up the partitions, we need to make sure that we have the keys to decrypt the boot image that we created in the previous step. Those keys are stored on the USB Drive, so copy the public key to the local directory:&#xA;sudo mount /dev/sda1 /mnt cp /mnt/z-image-1_pub_key.pem . Now that we have th key close at hand, it’s time to have Bootware create the secure partitions for us.</description>
+    </item>
+  </channel>
+</rss>

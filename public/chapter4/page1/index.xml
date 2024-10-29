@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Install zkifc :: Zymbit Workshop</title>
+    <link>http://localhost:1313/zymbit-tutorial/chapter4/page1/index.html</link>
+    <description>Now that our Pi is up and running, and the Zymkey is installed, it’s time to install the Zymbit software that we will need in order to commnicate with the device.&#xA;Installing zkifc All of these steps are covered in greater detail in the documentation, so if anything here is confusing, you can always double-check there.&#xA;Next, we need to install the required Zymkey Software.&#xA;curl -G https://s3.amazonaws.com/zk-sw-repo/install_zk_sw.sh | sudo bash Will install any updates, and then download and install the required Zymbit software.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>david.simmons@zymbit.com (David G. Simmons)</managingEditor>
+    <webMaster>david.simmons@zymbit.com (David G. Simmons)</webMaster>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/zymbit-tutorial/chapter4/page1/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

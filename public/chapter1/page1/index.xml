@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Background Info :: Zymbit Workshop</title>
+    <link>http://localhost:1313/zymbit-tutorial/chapter1/page1/index.html</link>
+    <description>Why are we doing this? SD Card vulernability While that micro SD card boot mechanism is certainly convenient, it does leave the Pi extremely vulnerable to physical tampering. After all, someone can simply walk up to the Pi, remove the SD card, and they have access to all of the programs and data that was running. They can put that card into their own Pi and they have full access to everything.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>david.simmons@zymbit.com (David G. Simmons)</managingEditor>
+    <webMaster>david.simmons@zymbit.com (David G. Simmons)</webMaster>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/zymbit-tutorial/chapter1/page1/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
