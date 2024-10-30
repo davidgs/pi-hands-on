@@ -1,6 +1,13 @@
 
 baseURL: 'https://davidgs.com/zymbit-tutorial/'
 languageCode: 'en-us'
+defaultContentLanguage: en
+languages:
+  en:
+    languageCode: en
+    languageName: English
+    title: My Website
+    weight: 1
 title: 'Zymbit Workshop'
 params:
   disableRootBreadcrumb: true
