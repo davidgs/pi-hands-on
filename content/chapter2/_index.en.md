@@ -1,8 +1,8 @@
-+++
-title = "Hardware"
-type = "chapter"
-weight = 2
-+++
+---
+title: "Hardware"
+type: "chapter"
+weight: 2
+---
 
 ## Overview
 

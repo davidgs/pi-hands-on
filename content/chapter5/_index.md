@@ -1,8 +1,8 @@
-+++
-title = "Bonus Exercises"
-type = "chapter"
-weight = 5
-+++
+---
+title: "Bonus Exercises"
+type: "chapter"
+weight: 5
+---
 
 Now that you have a secure Raspberry Pi it's time to see what you can do with it!
 

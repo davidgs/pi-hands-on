@@ -1,8 +1,8 @@
-+++
-title = 'Enabling Secure Boot'
-date = 2024-10-25T13:18:46-04:00
-weight = 5
-+++
+---
+title: 'Enabling Secure Boot'
+date: 2024-10-25T13:18:46-04:00
+weight: 5
+---
 
 ## Setting up secure booting
 

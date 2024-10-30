@@ -1,7 +1,7 @@
-+++
-title = ""
-type = "home"
-+++
+---
+title: ""
+type: "home"
+---
 
 ## Welcome to the Workshop
 

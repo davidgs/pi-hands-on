@@ -1,8 +1,8 @@
-+++
-title = 'Preparing for Bootware™'
-date = 2024-10-25T12:49:09-04:00
-weight = 2
-+++
+---
+title: 'Preparing for Bootware™'
+date: 2024-10-25T12:49:09-04:00
+weight: 2
+---
 
 ## Finally, making it secure
 
@@ -85,5 +85,5 @@ You should now have a proper file system on the USB Drive, which we will use as 
 > **Windows users**
 >
 > We have created an ext4 filesystem on the USB Drive. Windows cannot mount or read ext4 filesystems, so you will be unable to use the USB Drive from a Windows system without reformatting the drive (and erasing all data on it).
-> 
+>
 {{< pagenav prev="../page1" next="../page3/" >}}

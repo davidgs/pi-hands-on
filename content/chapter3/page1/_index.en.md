@@ -1,8 +1,8 @@
-+++
-title = 'Pi Imager'
-date = 2024-10-24T14:42:59-04:00
-weight = 1
-+++
+---
+title: 'Pi Imager'
+date: 2024-10-24T14:42:59-04:00
+weight: 1
+---
 
 ## Download Pi Imager
 

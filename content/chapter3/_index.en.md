@@ -1,8 +1,8 @@
-+++
-title = "Pi Software"
-type = "chapter"
-weight = 3
-+++
+---
+title: "Pi Software"
+type: "chapter"
+weight: 3
+---
 
 In this section we will do the following:
 

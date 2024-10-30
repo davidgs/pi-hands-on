@@ -1,8 +1,8 @@
-+++
-title = 'Installing Bootware™'
-date = 2024-10-25T12:53:24-04:00
-weight = 3
-+++
+---
+title: 'Installing Bootware™'
+date: 2024-10-25T12:53:24-04:00
+weight: 3
+---
 
 ### A place to put the backup image
 

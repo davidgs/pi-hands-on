@@ -1,8 +1,8 @@
-+++
-title = 'Securing a Raspberry Pi'
-type = 'chapter'
-weight = 3
-+++
+---
+title: 'Securing a Raspberry Pi'
+type: 'chapter'
+weight: 3
+---
 
 ## Welcome to the Workshop
 

@@ -1,8 +1,8 @@
-+++
-title = 'Pi Configuration'
-date = 2024-10-25T08:53:52-04:00
-weight = 3
-+++
+---
+title: 'Pi Configuration'
+date: 2024-10-25T08:53:52-04:00
+weight: 3
+---
 
 Now it's time to plug the Pi in to the power supply, wait for it to boot, and get started setting up our security!
 

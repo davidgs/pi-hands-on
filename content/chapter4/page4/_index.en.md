@@ -1,8 +1,8 @@
-+++
-title = 'Secure Booting'
-date = 2024-10-25T13:12:15-04:00
-weight = 4
-+++
+---
+title: 'Secure Booting'
+date: 2024-10-25T13:12:15-04:00
+weight: 4
+---
 
 ### Configuring Bootware
 
@@ -144,7 +144,7 @@ We've now got a system that is configured to have A/B partitioning, and to apply
 > **Logs**
 >
 > Bootware messages are logged to `/boot/firmware/zboot.log` so if you're interested in seeing what Bootware is doing you can loog there.
-> 
+>
 
 To complete the process, we will actually apply the update (which is really just a copy of the currently running system). This will trigger the re-partitioning and a reboot.
 
