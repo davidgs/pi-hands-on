@@ -14,7 +14,6 @@
     {{- partial "meta.html" . }}
     {{- $title := partial "title.gotmpl" (dict "page" . "fullyQualified" true "reverse" true) }}
     <title>{{ $title }}</title>
-    <meta name="bullshit" content="more-bullshit">
 
     {{- /* multilingual stuff */}}
     {{- if .IsTranslated -}}

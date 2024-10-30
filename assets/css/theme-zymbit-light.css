@@ -72,3 +72,7 @@
   text-decoration: none; /* Remove underline on hover */
   transform: scale(1.1); /* Scale effect on hover */
 }
+
+#R-header #a {
+  width: 150px; /* Set width of the SVG */
+}

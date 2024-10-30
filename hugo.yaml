@@ -4,6 +4,8 @@ languageCode: 'en-us'
 title: 'Zymbit Workshop'
 params:
   disableRootBreadcrumb: true
+  disableSearch: false
+  disablePrevNext: false
   linkTitle: Zymbit
   showVisitedLinks: true
   author:
