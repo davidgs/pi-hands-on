@@ -2,6 +2,7 @@
 title: 'Creating an image'
 date: 2024-10-24T14:48:01-04:00
 weight: 2
+reading_time: 2 minutes
 ---
 
 ## Starting Pi Imager

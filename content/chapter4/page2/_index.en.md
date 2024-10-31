@@ -2,6 +2,7 @@
 title: 'Preparing for Bootware™'
 date: 2024-10-25T12:49:09-04:00
 weight: 2
+reading_time: 3 minutes
 ---
 
 ## Finally, making it secure

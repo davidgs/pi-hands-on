@@ -2,6 +2,7 @@
 title: 'Background Info'
 date: 2024-10-24T12:23:03-04:00
 weight: 1
+reading_time: 2 minutes
 ---
 
 ## Why are we doing this?

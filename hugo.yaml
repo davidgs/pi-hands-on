@@ -6,8 +6,29 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: My Website
+    title: Zymbit Workshop
     weight: 1
+  es:
+    languageCode: es
+    languageName: Español
+    title: Taller Zymbit
+    weight: 2
+  fr:
+    languageCode: fr
+    languageName: Français
+    title: Atelier Zymbit
+    weight: 3
+  de:
+    languageCode: de
+    languageName: Deutsch
+    title: Zymbit-Werkstatt
+    weight: 4
+  nl:
+    languageCode: nl
+    languageName: Nederlands
+    title: Zymbit Workshop
+    weight: 5
+
 title: 'Zymbit Workshop'
 params:
   disableRootBreadcrumb: true

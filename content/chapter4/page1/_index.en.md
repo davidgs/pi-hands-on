@@ -2,6 +2,7 @@
 title: 'Install zkifc'
 date: 2024-10-25T12:41:35-04:00
 weight: 1
+reading_time: 5 minutes
 ---
 
 Now that our Pi is up and running, and the Zymkey is installed, it's time to install the Zymbit software that we will need in order to commnicate with the device.

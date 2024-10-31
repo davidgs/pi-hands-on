@@ -120,7 +120,8 @@ The installer will ask you if you're ready to reboot when it's done:
 	Operating System:  Rpi-Bookworm
 	Zymbit module:     Zymkey
 	Kernel:            kernel8.img
-	---------
+	------reading_time: 5 minutes
+---
        Found kernel '/boot/firmware/kernel8.img'
      Created '/etc/zymbit/zboot/mnt'
      Created '/etc/zymbit/zboot/scripts'

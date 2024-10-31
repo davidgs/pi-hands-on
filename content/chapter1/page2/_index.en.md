@@ -2,6 +2,7 @@
 title: 'Partitioning for Updates'
 date: 2024-10-24T12:23:03-04:00
 weight: 2
+reading_time: 2 minutes
 ---
 
 ## A/B Partitioning

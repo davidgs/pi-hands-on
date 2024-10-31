@@ -2,6 +2,7 @@
 title: "Pi Software"
 type: "chapter"
 weight: 3
+reading_time: 1 minute
 ---
 
 In this section we will do the following:

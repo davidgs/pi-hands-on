@@ -2,6 +2,7 @@
 title: 'Pi Imager'
 date: 2024-10-24T14:42:59-04:00
 weight: 1
+reading_time: 1 minute
 ---
 
 ## Download Pi Imager

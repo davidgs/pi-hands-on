@@ -1,6 +1,7 @@
 ---
 title: ""
 type: "home"
+reading_time: 2 minutes
 ---
 
 ## Welcome to the Workshop

@@ -2,6 +2,7 @@
 title: "Hardware"
 type: "chapter"
 weight: 2
+reading_time: 2 minutes
 ---
 
 ## Overview

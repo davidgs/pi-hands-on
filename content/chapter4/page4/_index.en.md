@@ -100,7 +100,8 @@ $ sudo zbcli update-config
 	Operating System:  Rpi-Bookworm
 	Zymbit module:     Zymkey
 	Kernel:            kernel8.img
-	---------
+	------reading_time: 5 minutes
+---
         Info the root file system will be re-partitioned with your chosen configuration.
 ```
 

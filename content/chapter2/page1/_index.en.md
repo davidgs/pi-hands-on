@@ -2,6 +2,7 @@
 title: 'Hardware Assembly'
 date: 2024-10-24T14:16:42-04:00
 weight: 1
+reading_time: 1 minute
 ---
 
 ## Assembling the hardware

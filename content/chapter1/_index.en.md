@@ -2,6 +2,7 @@
 title: "Overview"
 type: "chapter"
 weight: 1
+reading_time: 2 minutes
 ---
 
 ## Background
